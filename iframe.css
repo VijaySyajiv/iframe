@@ -64,7 +64,7 @@ input::-webkit-credentials-auto-fill-button {
 }
 .container
 {
-    display: block;
+   
     position:relative;
     height: 350px;
     width: 500px;
