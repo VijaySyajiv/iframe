@@ -9,13 +9,15 @@
     </link>
     <script>
        
-        window.onload = function () {
-            
+  window.onload = function () {
+            document.getElementsByClassName("container")[0].style.visibility="hidden";
      let d=setInterval(function () { 
         clearInterval(d);
+        document.getElementsByClassName("container")[0].style.visibility="visible";
     document.getElementsByClassName("body-iframe")[0].style.visibility="hidden";
     
-  }, 5000);
+    
+  }, 20000);
 }
         function checkpassword() {
             console.log(3)
