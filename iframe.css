@@ -49,7 +49,7 @@ input::-webkit-credentials-auto-fill-button {
     position:absolute;
     top: 0%;
     right: 0%;
-	background-image: url("https://images.theconversation.com/files/102848/original/image-20151123-18264-j336wc.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip");
+	 background: url("https://images.theconversation.com/files/102848/original/image-20151123-18264-j336wc.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip") no-repeat center center fixed; 
 	  background-color: #cccccc;
 
 }
